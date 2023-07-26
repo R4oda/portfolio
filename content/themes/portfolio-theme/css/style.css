@@ -174,7 +174,6 @@ input[type="submit"]{
 
 .third-section {
   margin-top: 170px;
-  height: 100vh
 }
 
 
@@ -272,7 +271,30 @@ footer {
 footer p {
   font-weight: bold;
 }
+.skill-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.skill__item{
+  width: 50%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.skill__item p{
+  line-height: 1.2;
+}
+.skill__item:first-child{
+  margin-top: 30px;
+}
+.skill__item img{
+  height: 50px;
+  width: 50px;
+}
 
 @media (max-width: 1050px) {
   h1 {
@@ -290,6 +312,10 @@ footer p {
 
   .design-items h3 {
     margin-bottom: 50px;
+  }
+  .skill__item{
+    width: 80%;
+    max-width: 320px;
   }
 }
 
