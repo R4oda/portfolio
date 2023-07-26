@@ -1,0 +1,340 @@
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+section {
+  width: 100%;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  background-color: #FFF;
+
+}
+
+.logo-btn {
+  padding: 20px 0px 30px 5%;
+}
+
+.logo-btn img {
+  width: 50px;
+  height: 50px;
+}
+
+nav,
+nav ul {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+}
+
+header ul {
+  padding: 20px 5% 30px 0px;
+}
+
+ul li {
+  padding: 15px;
+  font-weight: bold;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.second-section h2 {
+  margin-bottom: 60px;
+}
+
+.work-design,
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.design-items {
+  width: 48%;
+  margin-bottom: 80px;
+}
+
+.design-items img {
+  width: 100%;
+  height: 250px;
+  box-shadow: 0 2px 3px 0px;
+  transition: 0.3s;
+}
+
+.design-items img:hover {
+  transform: scale(1);
+  box-shadow: 10px 8px 20px 0px;
+}
+
+.design-items h3 {
+  text-align: center;
+  margin-top: 15px;
+  line-height: 24px;
+}
+
+.section-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 70px;
+}
+.single-section-inner{
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 70px;
+}
+.contact-inner{
+    max-width: 600px;
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 70px;
+}
+
+.contact-inner h3{
+  margin-top: 20px
+}
+
+input[type="email"] {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+
+input[type="text"] {
+  width:100%;
+  height: 40px;
+  margin-top: 5px;
+}
+
+textarea{
+  width: 100%;
+  height: 100px;
+  margin-top: 5px;
+}
+input[type="submit"]{
+  padding: 10px 30px;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+}
+
+
+.third-section {
+  margin-top: 170px;
+  height: 100vh
+}
+
+
+.third-section span {
+  font-size: 40px;
+}
+
+.third-section h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.third-section p {
+  margin-top: 40px;
+  line-height: 27px;
+}
+
+.forth-section {
+  margin-top: 100px;
+  height: 100vh;
+}
+.forth-section h2{
+  padding-top: 40px;
+}
+form h3{
+  margin-bottom: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 831px;
+  margin-top: 60px;
+}
+
+.work-page-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 170px;
+  margin-bottom: 150px;
+}
+
+.work-page-first h1 {
+  margin-bottom: 40px;
+}
+
+.work-page-first h3 {
+  line-height: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 170px;
+  margin-top: 30px;
+  border: 2px solid;
+  transition: .25s;
+  max-width: 100%;
+  margin-bottom: 200px;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+.image-section img {
+  width: 100%;
+}
+
+.work-page-first h3 {
+  line-height: 40px;
+}
+
+
+
+.image-block {
+  margin-bottom: 80px;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+	margin-top:100px;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+
+@media (max-width: 1050px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .flex-box {
+    flex-direction: column;
+  }
+
+  .design-items {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .design-items h3 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 520px) {
+  header ul {
+    padding: 20px 5px 30px 0px;
+  }
+
+  header ul {
+    font-size: 10px;
+  }
+
+  ul li {
+    padding: 15px 5px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .design-items {
+    width: 300px;
+  }
+
+  .design-items img {
+    height: 200px;
+  }
+
+  .work-page-first h3 {
+    font-size: 15px;
+  }
+
+  iframe {
+    height: 900px;
+  }
+}
+
+@media (max-width: 400px) {
+  iframe {
+    height: 1000px;
+  }
+}
+
+@media (max-width: 370px) {
+  iframe {
+    height: 1050px;
+  }
+}
